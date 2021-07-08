@@ -131,3 +131,14 @@ See the visualization <a href="https://drive.google.com/file/d/1d7on0yPe8qv3MWCb
 </div>
 
 As we see from the diagrams above, both the manual NN and the Keras NN (i.e., with an equivalent architecture) performed well (i.e., partially because the dataset was super clear). We can see that the red part refers to one class and the blue part refers to another class. Both models were able to separate this non-linearly separable points. However, on more complex datasets, the manual NN might not be as successful due to the simplicity (e.g., even for this simple data, it took around 7000 iterations to fit). I ended up trying the manual NN on different datasets, but it takes much more time (i.e., iterations) and more complex NN architectures to get good results. As mentioned, the Keras library takes around 175 times fewer iterations to get the same accuracy (i.e., about 7000 vs. 40 epochs), which is why the Keras library is superior. Still, it was a fun experience to understand how a NN works on the inside.
+
+
+References
+========
+
+1. "Backpropagation." (n.d.) Retrieved from https://ml-cheatsheet.readthedocs.io/en/latest/back-propagation.html
+2. Cornell University. (2017). Non-Convex Optimization. Retrieved from https://www.cs.cornell.edu/courses/cs6787/2017fa/Lecture7.pdf
+3. "Cross entropy." (n.d.) Retrieved from https://en.wikipedia.org/wiki/Cross_entropy
+4. Jindal, D. (2019). Augmenting Neural Networks with Constrained Optimization. Retrieved from https://towardsdatascience.com/augmenting-neural-networks-with-constraints-optimization-ac747408432f
+5. SkalskiP. (n.d.). ILearnDeepLearning.py. Retrieved from https://github.com/SkalskiP/ILearn-DeepLearning.py
+6. Skalski, P. (2018). Deep Dive into Math Behind Deep Networks. Retrieved from https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba
